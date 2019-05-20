@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/swiper.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/media.css">
+    <title>Elhau</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <a href="#" class="logo header__logo">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./dest/images/logo-mobile.png">
+                        <img class="logo__img" src="./dest/images/logo.png" alt="Логотип">
+                    </picture>
+                </a>
+                <div class="header__menu-wrapper">
+                    <button type="button" class="header__btn-mobile-menu"></button>
+                    <nav class="menu header__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link">О &laquo;Даче&raquo;</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Пансионаты</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Цены</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Ответы на вопросы</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="btn-call-me header__btn-call-me">Перезвоните мне</button>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <ul class="breadcrumbs header__breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <span class="breadcrumbs__current-page">Пожарная безопасность</span>
+                    </li>
+                </ul>
+                <a href="tel:78124267075" class="header__phone">+7 (812) 426-70-75</a>
+            </div>
+        </header>
+        <main class="main">
+            <section class="fire-safety">
+                <div class="container">
+                    <h1 class="main__title">Пожарная безопасность</h1>
+                    <ul class="dates-list">
+                        <li class="dates-list__item">
+                            Последнее обсуживание сигнализаций: <time class="dates-list__time">10.12.2018</time>
+                        </li>
+                        <li class="dates-list__item">
+                            Последнее осмотр огнетушителей: <time class="dates-list__time">14.12.2018</time>
+                        </li>
+                        <li class="dates-list__item">
+                            Последнее инструктаж персонала: <time class="dates-list__time">17.12.2018</time>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="progress">
+                <h2 class="main__subtitle visually-hidden">Успехи в пожарной безопасности</h2>
+                <p class="progress__text">
+                    Мы стремимся, чтобы наши пансионаты были не только лучшими в России по качеству услуг,
+                    но и абсолютно безопасными. И мы достигли больших успехов в
+                    обеспечении пожарной безопасности.
+                </p>
+            </section>
+            <section class="how-to-save">
+                <div class="container">
+                    <h2 class="main__subtitle">Как мы обеспечиваем безопасность пансионатов "Дача"</h2>
+                    <ul class="box-list">
+                        <li class="box-list__item box-list__item--with-border">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image" src="./dest/images/fire-alarm.jpg" alt="Пожарная сигнализация">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title">Пожарная сигнализация</h3>
+                                    <p class="box-list__text">
+                                        Речевое оповещение срабатывает при задымлении или нажатии кнопки.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="box-list__item box-list__item--with-border">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image" src="./dest/images/fire-department.jpg" alt="Вывод к пожарной части">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title">Вывод к пожарной части</h3>
+                                    <p class="box-list__text">
+                                        Сигнализация подключена к мониторинговому центру ближайшей пожарной части.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="box-list__item box-list__item--with-border">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image" src="./dest/images/auto-gate.jpg" alt="Автоматические ворота">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title">Автоматические ворота</h3>
+                                    <p class="box-list__text">
+                                        Открываются вместе с пожарной сигнализацией, чтобы пожарная команда могла заехать на территорию.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="box-list__item box-list__item--with-border">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image" src="./dest/images/trainings.jpg" alt="Инструктаж и тренировки">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title">Инструктаж и тренировки</h3>
+                                    <p class="box-list__text">
+                                        Все сотрудники проходят инструктаж по пожарной безопасности. Раз в три месяца проводятся учебные тренировки.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="box-list__item box-list__item--with-border">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image" src="./dest/images/evacuation-plan.jpg" alt="План эвакуации">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title">План эвакуации</h3>
+                                    <p class="box-list__text">
+                                        Размещён на каждом этаже.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="box-list__item box-list__item--with-border">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image" src="./dest/images/extinguisher.jpg" alt="Углекислотные огнетушители">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title">Углекислотные огнетушители</h3>
+                                    <p class="box-list__text">
+                                        Расположены на каждом этаже и лестничных пролётах.
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="standarts">
+                <div class="container">
+                    <h2 class="main__subtitle standarts__subtitle">Наши стандарты</h2>
+                    <ul class="box-list standarts__box-list">
+                        <li class="box-list__item">
+                            <p class="accent-text">
+                                9<br>
+                                <span class="accent-text__small-part">минут</span>
+                            </p>
+                            <p class="box-list__text">
+                                В среднем от каждого нашего пансионата до пожарной части.
+                            </p>
+                        </li>
+                        <li class="box-list__item">
+                            <p class="accent-text">
+                                210<br>
+                                <span class="accent-text__small-part">секунд</span>
+                            </p>
+                            <p class="box-list__text">
+                                Понадобится, чтобы эвакуировать всех постояльцев из любого пансионата.
+                            </p>
+                        </li>
+                        <li class="box-list__item">
+                            <p class="accent-text">
+                                3<br>
+                                <span class="accent-text__small-part">секунды</span>
+                            </p>
+                            <p class="box-list__text">
+                                От любой точки помещения до ближайшего огнетушителя.
+                            </p>
+                        </li>
+                        <li class="box-list__item">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image box-list__image--icon" src="./dest/images/incombustible-material.png" alt="Здания из негорючих материалов">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title box-list__title--center">Здания из негорючих материалов</h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="box-list__item">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image box-list__image--icon" src="./dest/images/fire-resistant-ladders.png" alt="Пожаростойкие лестницы">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title box-list__title--center">Пожаростойкие лестницы</h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="box-list__item">
+                            <figure class="box-list__figure">
+                                <img class="box-list__image box-list__image--icon" src="./dest/images/evacuation-paths.png" alt="Пути эвакуации из негорючих отделочных материалов">
+                                <figcaption class="box-list__figcaption">
+                                    <h3 class="box-list__title box-list__title--center">Пути эвакуации из негорючих отделочных материалов</h3>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="automation">
+                <div class="container automation__container">
+                    <h2 class="main__subtitle automation__subtitle">Автоматизация контроля пожарной безопасности</h2>
+                    <div class="quote">
+                        <div class="quote__clearfix">
+                            <blockquote class="quote__text">
+                                Пожар — это опасность. Мы делаем все, чтобы предотвратить эту опасность и уделяем особое внимание профилактике.
+                                В наших пансионатах внедрена *информационная система пожарной безопасности* (ИСПЖ) — программное обеспечение
+                                по автоматизации контроля пожарной безопасности.
+                            </blockquote>
+                            <div class="quote__signature">
+                                <p class="quote__who">Рейнштейн Дмитрий Ильич</p>
+                                <p class="quote__position">Управляющий сетью пансионатов «Дача»</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="automation__iszp-title">ИСПЖ обеспечивает контроль по 3 направлениям</h3>
+                    <ol class="box-list automation__paths">
+                        <li class="box-list__item box-list__item--with-number">
+                            <h3 class="box-list__title">Старший смены</h3>
+                            <p class="box-list__text">
+                                Осуществляет ежедневный контроль важных параметров:
+                                состояния проводки, огнетушителей, сигнализации, связи с пожарной частью.
+                            </p>
+                        </li>
+                        <li class="box-list__item box-list__item--with-number">
+                            <h3 class="box-list__title">Подрядная организация</h3>
+                            <p class="box-list__text">
+                                Проводит ежемесячные комплексные проверки по соблюдению общих требований пожарной безопасности.
+                            </p>
+                        </li>
+                        <li class="box-list__item box-list__item--with-number">
+                            <h3 class="box-list__title">Управляющий</h3>
+                            <p class="box-list__text">
+                                Составляет ежемесячные отчёты по контрольному листу,
+                                а также контролирует деятельность старшего смены и подрядной организации
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="automation__video">
+                    <iframe width="790" height="445" src="https://www.youtube.com/embed/DGQwd1_dpuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="practice">
+                <div class="container">
+                    <h2 class="main__subtitle">Практика. Теории не достаточно</h2>
+                    <div class="slider-gallery">
+                        <div class="slider-gallery__top slider-gallery__container swiper-container">
+                            <div class="slider-gallery__wrapper swiper-wrapper">
+                                <div class="slider-gallery__slide swiper-slide">
+                                    <img src="./dest/images/training-1.jpg" class="slider-gallery__image" alt="Обучение работе с огнетушителем">
+                                    <div class="slider-gallery__sign">
+                                        <p class="slider-gallery__title">Обучение работе с огнетушителем</p>
+                                        Сотрудники проходят обучение по использованию углекислотных огнетушителей.
+                                    </div>
+                                </div>
+                                <div class="slider-gallery__slide swiper-slide">
+                                    <img src="./dest/images/training-1.jpg" class="slider-gallery__image" alt="Обучение работе с огнетушителем">
+                                    <div class="slider-gallery__sign">
+                                        <p class="slider-gallery__title">Обучение работе с огнетушителем</p>
+                                        Сотрудники проходят обучение по использованию углекислотных огнетушителей.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-gallery__thumbs slider-gallery__container swiper-container">
+                            <div class="slider-gallery__wrapper swiper-wrapper">
+                                <div class="slider-gallery__slide swiper-slide" style="background-image: url(./dest/images/training-1.jpg)"></div>
+                                <div class="slider-gallery__slide swiper-slide" style="background-image: url(./dest/images/training-1.jpg)"></div>
+                            </div>
+                        </div>
+                        <button type="button" class="slider-gallery__next slider-gallery__btn-change"></button>
+                        <button type="button" class="slider-gallery__prev slider-gallery__btn-change"></button>
+                        <div class="slider-gallery__pagination swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="first-step">
+                <div class="first-step__wrapper">
+                    <div class="container first-step__container">
+                        <h2 class="main__subtitle first-step__subtitle text-center">
+                            Сделайте первый шаг - приезжайте на осмотр пансионата
+                        </h2>
+                        <div class="signup-form-wrapper">
+                            <form class="signup-form" action="">
+                                <p class="signup-form__title">Убедитесь во всем сами!</p>
+                                <div class="signup-form__control">
+                                    <label class="signup-form__label" for="name">Ваше имя</label>
+                                    <input class="signup-form__input" type="text" id="name" name="name">
+                                </div>
+                                <div class="signup-form__control">
+                                    <label class="signup-form__label" for="phone">Телефон</label>
+                                    <input class="signup-form__input" type="text" id="phone" name="phone">
+                                </div>
+                                <div class="signup-form__control">
+                                    <label class="signup-form__label" for="boarding-house">Пансионат</label>
+                                    <div class="signup-form__select-wrapper">
+                                        <select class="signup-form__input signup-form__select" id="boarding-house" name="boarding-house">
+                                            <option selected disabled hidden>Выберите пансионат</option>
+                                            <option value="1">Воронеж</option>
+                                            <option value="2">Петрозаводск</option>
+                                            <option value="3">Ялта</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="signup-form__control">
+                                    <input type="checkbox" id="agree" name="agree">
+                                    <label for="agree">
+                                        Согласен на <a href="">обработку персональных данных</a>
+                                    </label>
+                                </div>
+                                <button class="signup-form__btn" type="submit">Записаться на просмотр</button>
+                            </form>
+                            <p class="side-info">
+                                Дату и время визита вы согласуете при разговоре с нашим сотрудником.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer-wrapper">
+                <div class="footer__call-me">
+                    <a href="tel:88124267075" class="footer__phone">8 (812) 426-70-75</a>
+                    <button type="button" class="btn-call-me footer__btn-call-me">Перезвоните мне</button>
+                </div>
+                <nav class="menu footer__menu">
+                    <div class="footer__menu--column">
+                        <a href="#" class="footer__menu--title">
+                            <h3>О "Даче"</h3>
+                        </a>
+                        <ul class="footer__menu--items-list">
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Пансионаты "Дача"
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Коллектив
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Стандарты пансионатов
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu--column">
+                        <a href="#" class="footer__menu--title">
+                            <h3>Пансионаты</h3>
+                        </a>
+                        <ul class="footer__menu--items-list">
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Всеволожск
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Парголово
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Красное село
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Токсово
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu--column">
+                        <a href="#" class="footer__menu--title">
+                            <h3>Цены</h3>
+                        </a>
+                    </div>
+                    <div class="footer__menu--column">
+                        <a href="#" class="footer__menu--title">
+                            <h3>Ответы на вопросы</h3>
+                        </a>
+                        <ul class="footer__menu--items-list">
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Питание
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Проживание
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Досуг
+                                </a>
+                            </li>
+                            <li class="footer__menu--item">
+                                <a href="#" class="footer__menu--link">
+                                    Стоимость и оплата
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu--column">
+                        <a href="#" class="footer__menu--title">
+                            <h3>Контакты</h3>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+    </div>
+    <script src="./dest/js/script.min.js" defer></script>
+</body>
+</html>
